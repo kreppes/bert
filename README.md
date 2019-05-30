@@ -37,4 +37,4 @@ python3 bert.py
 ## Built With
 
 * [PyCharm](https://www.jetbrains.com/pycharm/) - The IDE used
-* [PyQt5] (https://riverbankcomputing.com/software/pyqt/intro) - The GUI framework used
+* [PyQt5](https://riverbankcomputing.com/software/pyqt/intro) - The GUI framework used
