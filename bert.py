@@ -47,9 +47,7 @@ class BMI_Window(object):
             if weigth > 140 or heigth > 200:
                 self.output_label.setText("Netter Versuch =)")
             else:
-                bmi = weigth / (heigth ** 2) * 10000
-                self.output_label.setText('Ihr BMI: {:.2f}'.format(bmi))
-                
+                self.output_label.setText('Ihr BMI: {:.2f}'.format(weigth / (heigth ** 2) * 10000))
         except (ValueError, ZeroDivisionError):
             self.weigth_input.setText("")
             self.heigth_input.setText("")
